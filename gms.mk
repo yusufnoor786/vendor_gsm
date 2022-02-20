@@ -6,3 +6,4 @@
 
 # Include GMS blobs
 $(call inherit-product, vendor/gms/common/common-vendor.mk)
+$(call inherit-product, vendor/gms/extras/extras-vendor.mk)
