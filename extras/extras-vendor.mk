@@ -9,3 +9,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/gms/extras/proprietary/product/etc/default-permissions/opengapps-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/opengapps-permissions.xml
+
+PRODUCT_PACKAGES += \
+    GoogleCalendarSyncAdapter
