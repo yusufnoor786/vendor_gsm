@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
+    LatinIMEGooglePrebuilt \
     Phonesky \
     PrebuiltGmsCoreSc \
     AndroidPlatformServices \

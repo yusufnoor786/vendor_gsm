@@ -2,6 +2,7 @@
 
 # Apps
 -product/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk;PRESIGNED
+-product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk;OVERRIDES=LatinIME;PRESIGNED
 -product/priv-app/Phonesky/Phonesky.apk;PRESIGNED
 -product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices.apk;PRESIGNED
 -product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk;PRESIGNED

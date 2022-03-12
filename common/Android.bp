@@ -17,6 +17,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "LatinIMEGooglePrebuilt",
+	owner: "gms",
+	apk: "proprietary/product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk",
+	overrides: ["LatinIME"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "Phonesky",
 	owner: "gms",
 	apk: "proprietary/product/priv-app/Phonesky/Phonesky.apk",
